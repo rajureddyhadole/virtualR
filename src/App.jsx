@@ -5,17 +5,19 @@ import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div className='px-6 pt-20 mx-auto max-w-7xl'>
+      <div className='max-w-6xl px-6 pt-20 mx-auto'>
         <HeroSection />
         <FeatureSection />
         <Workflow />
         <Pricing />
         <Testimonials />
+        <Footer />
       </div>
     </>
   )
